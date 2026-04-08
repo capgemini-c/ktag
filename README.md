@@ -4,7 +4,7 @@ Classifies your Obsidian notes against a YAML tag taxonomy using a local LLM ([O
 
 ## Setup
 
-1. Install [Ollama](https://ollama.com) and pull a model: `ollama pull qwen2.5-coder:7b`
+1. Install [Ollama](https://ollama.com) and pull a model: `ollama pull qwen2.5-coder:7b` (coder is simply what I played with, you're welcome to use whatever model you'd like)
 2. Install kTag from Community Plugins
 3. Configure your taxonomy in Settings → kTag
 
@@ -32,7 +32,7 @@ tech:
     css: "CSS, styling, layout"
 ```
 
-Tip: include abbreviations in descriptions. `"Universal Editor (UE), SPA editing"` catches more than `"Universal Editor"`.
+Tip: include abbreviations in descriptions. `"Kubernetes (k8s), container orchestration"` catches more than `"Kubernetes"`.
 
 ## Commands
 
