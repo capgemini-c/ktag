@@ -1,0 +1,9 @@
+{
+  "id": "ktag",
+  "name": "kTag",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "AI-powered tag classification for Obsidian notes using local LLMs",
+  "author": "capgemini-c",
+  "isDesktopOnly": true
+}

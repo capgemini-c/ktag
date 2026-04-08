@@ -1,0 +1,43 @@
+# kTag — Example Tag Taxonomy
+# Customize this file with your own categories and tags.
+# Format: category/tag: "Description (used as hint for the AI model)"
+# Tags are flattened to paths (e.g. domain/work, tech/frontend/react)
+#
+# Nesting up to 4 levels is supported. Use _desc for parent tag descriptions:
+#   category:
+#     parent:
+#       _desc: "Parent description"
+#       child: "Child description"
+#
+# Run `ktag init` to copy this file as your starting point.
+
+domain:
+  work: "Anything related to work or employment"
+  personal: "Personal life, hobbies, non-work"
+
+type:
+  meeting-notes: "Meeting notes, call summaries"
+  learning: "Technical reference, study notes, training"
+  planning: "Roadmaps, strategy, architecture decisions"
+  reflection: "Self-assessment, reviews, feedback"
+  brainstorm: "Ideas, concepts, early-stage thinking"
+  task-list: "TODO or action item notes"
+  reference: "Link collections, templates, lookup material"
+
+tech:
+  frontend:
+    _desc: "Frontend development"
+    react: "React components, hooks, state management"
+    css:
+      _desc: "CSS, styling, layout"
+      tailwind: "Tailwind CSS utility classes"
+  backend:
+    _desc: "Backend development"
+    api: "REST or GraphQL API design"
+    database: "Database schema, queries, migrations"
+
+topic:
+  finance: "Budget, expenses, investments"
+  health: "Health, fitness, medical"
+  travel: "Travel plans, trip notes"
+  project: "Project-specific notes"

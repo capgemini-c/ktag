@@ -1,0 +1,37 @@
+{
+  "name": "ktag",
+  "version": "1.0.0",
+  "description": "AI-powered tag classification for Obsidian notes using local LLMs",
+  "bin": {
+    "ktag": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build:plugin": "node esbuild.config.mjs",
+    "build:cli": "tsc",
+    "dev": "tsx src/cli/index.ts",
+    "ktag": "tsx src/cli/index.ts"
+  },
+  "keywords": [
+    "obsidian",
+    "tagging",
+    "ollama",
+    "ai",
+    "notes"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "commander": "^14.0.3",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.5.2",
+    "esbuild": "^0.28.0",
+    "obsidian": "^1.12.3",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
